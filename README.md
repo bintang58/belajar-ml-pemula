@@ -1,6 +1,6 @@
 # 📦 Submission - Belajar Machine Learning untuk Pemula
 
-Repositori ini berisi dua proyek akhir dari modul **Belajar Machine Learning untuk Pemula** (Laskar AI), yaitu:
+Repositori ini berisi dua proyek akhir dari modul **Belajar Machine Learning untuk Pemula** dalam pelatihan **Laskar AI**, yaitu:
 
 1. 🧠 **Clustering** - Mengelompokkan data berdasarkan kemiripan fitur.
 2. 🤖 **Klasifikasi** - Membuat model klasifikasi berdasarkan hasil clustering.
@@ -28,18 +28,6 @@ Dataset `Dataset_inisiasi.csv` berasal dari Kaggle dan tidak diunggah langsung k
 
 ---
 
-## 💻 Jalankan di Google Colab
-
-Untuk menjalankan notebook di Google Colab:
-
-1. Buka [Google Colab](https://colab.research.google.com).
-2. Klik **File > Open notebook > GitHub**.
-3. Masukkan URL repositori ini.
-4. Pilih file yang ingin dijalankan.
-5. Upload dataset (`Dataset_clustering.csv`, dan jika perlu `Dataset_inisiasi.csv`) melalui sidebar Files → Upload.
-
----
-
 ## 🛠️ Teknologi
 
 - **Python**:
@@ -58,6 +46,40 @@ Untuk menjalankan notebook di Google Colab:
 - **Google Colab**:
   - Menggunakan `google.colab.drive` untuk membaca dan menyimpan file dari Google Drive.
 - **Jupyter Notebook** – Alternatif lokal untuk eksplorasi dan pengembangan model.
+
+---
+
+## 🚀 Menjalankan Proyek
+
+### 1. Jalankan di Google Colab
+
+> Cocok untuk pengguna yang tidak ingin setup environment lokal.
+
+1. Buka [Google Colab](https://colab.research.google.com).
+2. Klik **File > Open notebook > GitHub**.
+3. Masukkan URL repositori ini.
+4. Pilih file notebook yang ingin dijalankan:
+   - `[Clustering]_Submission_Akhir_BMLP_Bintang_Cahya_Anwar.ipynb`
+   - `[Klasifikasi]_Submission_Akhir_BMLP_Bintang_Cahya_Anwar.ipynb`
+5. Upload file `Dataset_clustering.csv` melalui sidebar **Files → Upload**.
+
+### 2. Jalankan Secara Lokal
+
+1. Clone repository ini:
+   ```bash
+   git clone https://github.com/bintang58/belajar-ml-pemula
+   cd belajar-ml-pemula
+2. Buat dan aktifkan environment (opsional, tapi disarankan):
+   ```bash
+   python -m venv nama_venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate     # Windows
+3. Install dependensi:
+   ```bash
+   pip install -r requirements.txt
+4. Jalankan notebook menggunakan Jupyter atau Jupyter Lab:
+   ```bash
+   jupyter notebook
 
 ---
 
