@@ -42,9 +42,22 @@ Untuk menjalankan notebook di Google Colab:
 
 ## 🛠️ Teknologi
 
-- Python, Scikit-learn
-- Pandas, Matplotlib, Seaborn
-- Google Colab / Jupyter Notebook
+- **Python**:
+  - `numpy` – Operasi numerik dasar.
+  - `pandas` – Manipulasi dan analisis data.
+  - `matplotlib` & `seaborn` – Visualisasi grafik dan data.
+- **Scikit-learn**:
+  - `KMeans` – Algoritma clustering.
+  - `RandomForestClassifier`, `GaussianNB` – Model klasifikasi.
+  - `train_test_split`, `RandomizedSearchCV` – Split data & tuning hyperparameter.
+  - `MinMaxScaler`, `StandardScaler`, `LabelEncoder` – Normalisasi dan encoding data.
+  - `PCA` – Reduksi dimensi.
+  - `confusion_matrix`, `accuracy_score`, `precision_score`, `recall_score`, `f1_score`, `classification_report`, `silhouette_score` – Evaluasi model.
+- **Yellowbrick**:
+  - `KElbowVisualizer` – Visualisasi Elbow Method untuk clustering.
+- **Google Colab**:
+  - Menggunakan `google.colab.drive` untuk membaca dan menyimpan file dari Google Drive.
+- **Jupyter Notebook** – Alternatif lokal untuk eksplorasi dan pengembangan model.
 
 ---
 
@@ -55,4 +68,4 @@ Untuk menjalankan notebook di Google Colab:
 
 ---
 
-> Dibuat sebagai bagian dari pelatihan **Laskar AI - Belajar Machine Learning untuk Pemula**
+> Proyek ini diibuat sebagai bagian dari pelatihan **Laskar AI - Belajar Machine Learning untuk Pemula**
